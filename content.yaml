@@ -1,0 +1,51 @@
+---
+    YAML : YAML Ain't Markup Language
+    What : Data serialization language
+    How :
+        documents : separated by "---"
+        lists :
+            - Formated
+            - Using
+            - Hypen
+            - [ Or, wirtten, in , square, brackets]
+        associative arrays :
+            name : value pairs
+            in : block style
+            or : { in: flow style}
+        text:
+            simple: single line
+            multiline: |
+                preserving
+                newlines
+            or: >
+                folding
+                newlines
+            single: 'quoted'
+            double: "quoted"
+        numbers: 123
+        dates: 2016-01-01
+        references:
+            to : &elements from
+            other : *elements
+        typed : !!str content
+#        ?   - complex
+#            - structures
+#        :
+#            - as
+#            - keys
+#       comments
+        java : SnakeYAML
+        javascript: JS-YAML
+        python: PyYaml
+    Why:
+        - readable
+        - editable : by human
+        - more compact than : xml
+        - more expressive than: json
+        - may be: !!str typed
+        - may be : not
+        - supports : custom types
+    Where:
+        - configuration files
+        - serialization format
+        - data files edited by human

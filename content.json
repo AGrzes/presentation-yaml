@@ -1,0 +1,62 @@
+{
+    "What": "Data serialization language",
+    "YAML": "YAML Ain't Markup Language",
+    "Where": [
+        "configuration files",
+        "serialization format",
+        "data files edited by human"
+    ],
+    "How": {
+        "dates": "2016-01-01",
+        "documents": "separated by \"---\"",
+        "java": "SnakeYAML",
+        "python": "PyYaml",
+        "text": {
+            "simple": "single line",
+            "double": "quoted",
+            "single": "quoted",
+            "multiline": "preserving\nnewlines\n",
+            "or": "folding newlines\n"
+        },
+        "javascript": "JS-YAML",
+        "lists": [
+            "Formated",
+            "Using",
+            "Hypen", [
+                "Or",
+                "wirtten",
+                "in",
+                "square",
+                "brackets"
+            ]
+        ],
+        "associative arrays": {
+            "in": "block style",
+            "or": {
+                "in": "flow style"
+            },
+            "name": "value pairs"
+        },
+        "references": {
+            "to": "from",
+            "other": "from"
+        },
+        "numbers": 123,
+        "typed": "content"
+    },
+    "Why": [
+        "readable", {
+            "editable": "by human"
+        }, {
+            "more compact than": "xml"
+        }, {
+            "more expressive than": "json"
+        }, {
+            "may be": "typed"
+        }, {
+            "may be": "not"
+        }, {
+            "supports": "custom types"
+        }
+    ]
+}
