@@ -2,3 +2,8 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
